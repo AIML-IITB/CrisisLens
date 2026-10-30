@@ -1,0 +1,60 @@
+# Data: keep raw and processed data out of git. Commit the scripts that fetch and build it.
+data/
+datasets/
+raw/
+processed/
+outputs/
+cache/
+*.tif
+*.tiff
+*.vrt
+*.nc
+*.h5
+*.hdf
+*.zarr/
+*.npy
+*.npz
+*.parquet
+*.gpkg
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+!examples/**/*.geojson
+
+# Model weights and experiment logs
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+wandb/
+mlruns/
+lightning_logs/
+
+# Secrets (Earth Engine, ReliefWeb, LLM API keys)
+.env
+.env.*
+*.json.key
+credentials*.json
+service-account*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
