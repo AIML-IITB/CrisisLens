@@ -1,3 +1,4 @@
+<img width="1209" height="860" alt="image" src="https://github.com/user-attachments/assets/3666eddc-ae3b-44eb-b7d3-451cbdfd1319" />
 # CrisisLens
 
 Multimodal disaster intelligence. A system that combines satellite imagery, incident reports and environmental data to estimate where damage is and decide where help should go first, plus an evaluation that shows whether combining the signals actually ranks areas better than any one of them alone.
